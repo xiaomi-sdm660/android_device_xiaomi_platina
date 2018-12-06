@@ -28,6 +28,9 @@ DEVICE_PATH := device/xiaomi/wayne
 # Platform
 BOARD_VENDOR_PLATFORM := xiaomi-sdm660
 
+# WLAN MAC
+WLAN_MAC_SYMLINK := true
+
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/proc/nvt_wake_gesture"
 
