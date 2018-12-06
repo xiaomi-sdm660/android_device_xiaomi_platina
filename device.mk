@@ -82,7 +82,7 @@ PRODUCT_COPY_FILES += \
 # Ramdisk     
  PRODUCT_PACKAGES += \
     init.goodix.sh \
-    init.wayne.rc
+    init.device.rc
     
 # Consumerir
 PRODUCT_PACKAGES += \
