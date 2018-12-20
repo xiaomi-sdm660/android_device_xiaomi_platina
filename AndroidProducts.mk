@@ -23,4 +23,4 @@
 
 # inherit MI 6X CarbonRom device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_wayne.mk
+    $(LOCAL_DIR)/havoc_wayne.mk
