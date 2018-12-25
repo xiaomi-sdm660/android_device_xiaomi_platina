@@ -23,29 +23,28 @@
 
 include device/xiaomi/sdm660-common/PlatformConfig.mk
 
+# Device Path
 DEVICE_PATH := device/xiaomi/wayne
-
-# Platform
-BOARD_VENDOR_PLATFORM := xiaomi-sdm660
-
-# WLAN MAC
-WLAN_MAC_SYMLINK := true
 
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/proc/nvt_wake_gesture"
 
-# Manifest 
+# Kernel
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
+TARGET_KERNEL_CONFIG := wayne-perf_defconfig
+
+# Manifest
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 
-# Security patch level
+# Platform
+BOARD_VENDOR_PLATFORM := xiaomi-sdm660
+
+# Vendor Security patch level
 VENDOR_SECURITY_PATCH := 2018-09-01
 
 # Vendor init
 TARGET_INIT_VENDOR_LIB := libinit_wayne
 TARGET_RECOVERY_DEVICE_MODULES := libinit_wayne
 
-# Kernel
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
-TARGET_KERNEL_CONFIG := wayne-perf_defconfig
-#TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
-
+# WLAN MAC
+WLAN_MAC_SYMLINK := true
