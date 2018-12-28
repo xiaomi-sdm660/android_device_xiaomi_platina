@@ -26,7 +26,11 @@ $(call inherit-product, device/xiaomi/wayne/device.mk)
 
 # Inherit from Havoc custom product configuration
 $(call inherit-product, vendor/havoc/config/common.mk)
+
 TARGET_VENDOR_PRODUCT_NAME := wayne
+
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.havoc.maintainer=rcstar6696 
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="wayne-user 8.1.0 OPM1.171019.011 V9.5.11.0.ODCCNFA release-keys"
