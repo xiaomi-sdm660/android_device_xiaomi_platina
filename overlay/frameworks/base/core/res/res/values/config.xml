@@ -109,8 +109,8 @@
 	<!-- Screen brightness used to dim the screen when the user activity
 		 timeout expires.  May be less than the minimum allowed brightness setting
 		 that can be set by the user. -->
-	<integer name="config_screenBrightnessDim">1</integer>
-	<integer name="config_screenBrightnessDark">1</integer>
+	<integer name="config_screenBrightnessDim">10</integer>
+	<integer name="config_screenBrightnessDark">5</integer>
 
 	<!-- Default screen brightness setting.
 		 Must be in the range specified by minimum and maximum. -->
@@ -129,12 +129,12 @@
 		 when adapting to brighter or darker environments.  This parameter controls how quickly
 		 brightness changes occur in response to an observed change in light level that exceeds the
 		 hysteresis threshold. -->
-	<integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
-	<integer name="config_autoBrightnessDarkeningLightDebounce">1000</integer>
+	<integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+	<integer name="config_autoBrightnessDarkeningLightDebounce">6000</integer>
 
 	<!-- The maximum range of gamma adjustment possible using the screen
 		 auto-brightness adjustment setting. -->
-	<fraction name="config_autoBrightnessAdjustmentMaxGamma">200%</fraction>
+	<fraction name="config_autoBrightnessAdjustmentMaxGamma">300%</fraction>
 	<fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
 
 	<!-- Period of time in which to consider light samples in milliseconds. -->
