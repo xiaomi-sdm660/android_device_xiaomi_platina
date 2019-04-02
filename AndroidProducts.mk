@@ -23,9 +23,9 @@
 
 # inherit MI 6X lineage device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_wayne.mk
+    $(LOCAL_DIR)/carbon_wayne.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_wayne-eng \
-    lineage_wayne-userdebug \
-		lineage_wayne-user
+    carbon_wayne-eng \
+    carbon_wayne-userdebug \
+		carbon_wayne-user
