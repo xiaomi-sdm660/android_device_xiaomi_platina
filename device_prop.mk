@@ -98,9 +98,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.radio.multisim.config=dsds
 
-# Media
-PRODUCT_PROPERTY_OVERRIDES += \
-	vendor.mm.enable.qcom_parser=13631471
 
 # Paper mode
 PRODUCT_PROPERTY_OVERRIDES += \
