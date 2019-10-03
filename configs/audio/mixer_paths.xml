@@ -2245,6 +2245,30 @@
         <path name="headphones" />
     </path>
 
+    <path name="headphones-hifi-filter">
+        <path name="headphones" />
+    </path>
+
+    <path name="headphones-ce">
+        <path name="headphones" />
+        <ctl name="RX1 Digital Volume" value="72" />
+        <ctl name="RX2 Digital Volume" value="72" />
+    </path>
+
+    <path name="headphones-no-ce">
+        <path name="headphones" />
+        <ctl name="RX1 Digital Volume" value="81" />
+        <ctl name="RX2 Digital Volume" value="81" />
+    </path>
+
+    <path name="headphones-karaoke">
+        <path name="headphones" />
+	<ctl name="RX1 MIX2 INP1" value="IIR1" /> 
+	<ctl name="RX2 MIX2 INP1" value="IIR1" /> 
+	<ctl name="IIR1 INP1 Volume" value="80" /> 
+	<ctl name="IIR1 INP2 Volume" value="80" /> 
+    </path>
+
     <path name="true-native-mode">
     </path>
 
@@ -2308,6 +2332,21 @@
     <path name="speaker-and-headphones">
         <path name="headphones" />
         <path name="speaker" />
+    </path>
+
+    <path name="speaker-and-headphones-hifi-filter">
+        <path name="headphones" />
+        <path name="speaker" />
+    </path>
+    
+    <path name="speaker-and-headphones-ce">
+        <path name="headphones-ce" />
+        <path name="speaker" />
+    </path>
+    
+    <path name="speaker-and-headphones-no-ce">
+    <path name="headphones-no-ce" />
+    <path name="speaker" />
     </path>
 
     <path name="speaker-and-line">
