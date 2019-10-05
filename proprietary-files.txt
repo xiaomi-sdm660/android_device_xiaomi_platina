@@ -958,7 +958,7 @@ vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/lib64/hw/keystore.sdm660.so
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
 
-# Thermal
+# Thermal (Configs)
 vendor/etc/thermal-engine-battery.conf
 vendor/etc/thermal-engine-battery2.conf
 vendor/etc/thermal-engine-gameing.conf
@@ -966,9 +966,3 @@ vendor/etc/thermal-engine-performance.conf
 vendor/etc/thermal-engine-map.conf
 vendor/etc/thermal-engine-default.conf
 vendor/etc/thermal-engine.conf
-vendor/bin/thermal-engine
-vendor/lib/libthermalfeature.so
--vendor/lib/libthermalclient.so
-vendor/lib64/libthermalfeature.so
--vendor/lib64/libthermalclient.so
-vendor/lib64/libthermalioctl.so
