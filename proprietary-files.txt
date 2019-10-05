@@ -109,7 +109,6 @@ vendor/etc/camera/wayne_imx486_sunny_cn_i_chromatix.xml
 vendor/etc/camera/wayne_imx486_sunny_cn_iii_chromatix.xml
 vendor/etc/camera/wayne_imx486_sunny_india_i_chromatix.xml
 vendor/etc/camera/wayne_imx486_sunny_india_iii_chromatix.xml
-vendor/etc/MIUI_DualCamera_watermark.png
 vendor/etc/MIUI_Time.ttf
 vendor/etc/Miui-Light.ttf
 vendor/lib/hw/camera.sdm660.so
@@ -131,7 +130,6 @@ vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
 vendor/lib/libmibokeh_660.so
-vendor/lib/libMiWatermark.so
 vendor/lib/libmm-qcamera.so
 vendor/lib/libmmlib2d_interface.so
 vendor/lib/libmmcamera_dbg.so
@@ -923,7 +921,6 @@ vendor/bin/qfp-daemon
 vendor/etc/permissions/com.fingerprints.extension.xml
 vendor/framework/com.fingerprints.extension.jar
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
-vendor/lib64/hw/fingerprint.default.so
 vendor/lib64/hw/fingerprint.fpc.default.so
 vendor/lib64/hw/fingerprint.goodix.default.so
 vendor/lib64/com.fingerprints.extension@1.0.so
