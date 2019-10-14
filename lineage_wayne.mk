@@ -27,6 +27,9 @@ $(call inherit-product, device/xiaomi/wayne/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Define first api level
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
+
 TARGET_VENDOR_PRODUCT_NAME := wayne
 
 # Build Fingerprint
