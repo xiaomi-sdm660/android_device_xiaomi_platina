@@ -18,12 +18,6 @@ vendor/lib/libaudioroute_ext.so
 vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
 vendor/lib/libsurround_3mic_proc.so
-vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libaudiopreprocessing.so
-vendor/lib/soundfx/libdirac.so
-vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcreverb.so
-vendor/lib/soundfx/libqcvirt.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbrtac.so
@@ -35,12 +29,6 @@ vendor/lib64/libaudioparsers.so
 vendor/lib64/libaudioroute_ext.so
 -vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libqtigef.so
-vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libaudiopreprocessing.so
-vendor/lib64/soundfx/libdirac.so
-vendor/lib64/soundfx/libqcbassboost.so
-vendor/lib64/soundfx/libqcreverb.so
-vendor/lib64/soundfx/libqcvirt.so
 
 # Audio-ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
