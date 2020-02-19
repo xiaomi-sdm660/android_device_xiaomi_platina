@@ -1,4 +1,4 @@
-#
+	#
 # Copyright (C) 2018 The Xiaomi-SDM660 Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -28,6 +28,9 @@ DEVICE_PATH := device/xiaomi/platina
 
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
+
+# Charger
+TARGET_PIXEL_CHARGE_ANIM := true
 
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/wake_gesture"
