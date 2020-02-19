@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-export DEVICE=wayne
+export DEVICE=platina
 export DEVICE_COMMON=sdm660-common
 export VENDOR=xiaomi
 

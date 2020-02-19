@@ -24,17 +24,17 @@
 include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
 # Device Path
-DEVICE_PATH := device/xiaomi/wayne
+DEVICE_PATH := device/xiaomi/platina
 
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
 # DT2W
-TARGET_TAP_TO_WAKE_NODE := "/proc/nvt_wake_gesture"
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/wake_gesture"
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
-TARGET_KERNEL_CONFIG := wayne-perf_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/platina
+TARGET_KERNEL_CONFIG := platina_defconfig
 TW_USE_TOOLBOX := true
 
 # Manifest
@@ -44,7 +44,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 BOARD_VENDOR_PLATFORM := xiaomi-sdm660
 
 # Vendor Security patch level
-VENDOR_SECURITY_PATCH := 2019-12-05
+VENDOR_SECURITY_PATCH := 2019-11-01
 
 # WLAN MAC
 WLAN_MAC_SYMLINK := true

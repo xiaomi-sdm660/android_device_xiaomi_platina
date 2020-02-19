@@ -22,13 +22,10 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/xiaomi/wayne/device.mk)
+$(call inherit-product, device/xiaomi/platina/device.mk)
 
-# Inherit Carbon GSM telephony parts
-$(call inherit-product, vendor/carbon/config/gsm.mk)
-
-# Inherit Carbon product configuration
-$(call inherit-product, vendor/carbon/config/common.mk)
+# Inherit AOSP product configuration
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
@@ -44,6 +41,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := carbon_wayne
-PRODUCT_DEVICE := wayne
-PRODUCT_MODEL := MI 6X
+PRODUCT_NAME := aosp_platina
+PRODUCT_DEVICE := platina
+PRODUCT_MODEL := MI 8 Lite
