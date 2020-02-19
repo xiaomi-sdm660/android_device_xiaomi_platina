@@ -37,6 +37,6 @@
     <item name="config_screenAspectRatio" format="float" type="dimen">2.1</item>
 
     <!-- Whether device has a physical display cutout -->
-    <bool name="config_physicalDisplayCutout">true</bool
+    <bool name="config_physicalDisplayCutout">true</bool>
 
 </resources>
