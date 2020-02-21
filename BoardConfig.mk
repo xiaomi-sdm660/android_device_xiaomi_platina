@@ -26,12 +26,6 @@ include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 # Device Path
 DEVICE_PATH := device/xiaomi/platina
 
-# Crypto
-TARGET_HW_DISK_ENCRYPTION := true
-
-# Charger
-TARGET_PIXEL_CHARGE_ANIM := true
-
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/wake_gesture"
 
@@ -39,7 +33,6 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/wake_gesture"
 TARGET_KERNEL_SOURCE := kernel/xiaomi/platina
 TARGET_KERNEL_CONFIG := platina_defconfig
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
-TW_USE_TOOLBOX := true
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml

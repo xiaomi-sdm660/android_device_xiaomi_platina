@@ -21,6 +21,11 @@
 # definition file).
 #
 
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
+
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/platina/device.mk)
 
@@ -28,14 +33,19 @@ $(call inherit-product, device/xiaomi/platina/device.mk)
 CUSTOM_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
+
+# Inherit some common Evolution-X stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Define first api level
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
-
-# Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="wayne-user 9 PKQ1.180904.001 V10.3.4.0.PDCCNXM release-keys"
+    PRODUCT_NAME="platina" \
+    TARGET_DEVICE="platina" \
+    PRIVATE_BUILD_DESC="coral-user 10 QQ1D.200205.002 6084393 release-keys"
+
+BUILD_FINGERPRINT := "google/coral/coral:10/QQ1D.200205.002/6084393:user/release-keys"
+
+TARGET_VENDOR_PRODUCT_NAME := platina
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Device identifier
 PRODUCT_BRAND := Xiaomi
