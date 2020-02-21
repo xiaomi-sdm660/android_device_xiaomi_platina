@@ -1,10 +1,6 @@
 # Audio
 vendor/bin/audioflacapp
-vendor/etc/audio.scd
-vendor/etc/diracvdd.bin
-vendor/etc/speaker.ftcfg
 vendor/firmware/dbmd4_va_fw.bin
-vendor/firmware/tfa98xx.cnt
 vendor/firmware/voice_amodel.bin
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
@@ -15,6 +11,7 @@ vendor/lib/libaudcal.so
 vendor/lib/libaudioalsa.so
 vendor/lib/libaudioconfigstore.so
 vendor/lib/libaudioparsers.so
+vendor/lib/libaudioroute_ext.so
 -vendor/lib/libaudio_log_utils.so
 vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
@@ -27,27 +24,20 @@ vendor/lib64/libaudcal.so
 vendor/lib64/libaudioalsa.so
 vendor/lib64/libaudioconfigstore.so
 vendor/lib64/libaudioparsers.so
+vendor/lib64/libaudioroute_ext.so
 -vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libqtigef.so
 
 # Audio-ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
-vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
-vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
+vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_General_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
 
 # Camera
 vendor/etc/camera/age_gender_bg
@@ -1936,7 +1926,7 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
-vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
+vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
 vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/lib/libkeymasterdeviceutils.so
 vendor/lib/libkeymasterprovision.so
@@ -1954,7 +1944,10 @@ vendor/lib64/libkeystore-wifi-hidl.so
 vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so
 
 # Thermal
-vendor/etc/thermal-engine.conf
-vendor/etc/thermal-engine-camera.conf
-vendor/etc/thermal-engine-map.conf
-vendor/etc/thermal-engine-normal.conf
+vendor/etc/thermal-engine-sdm660-camera.conf
+vendor/etc/thermal-engine-sdm660-high.conf
+vendor/etc/thermal-engine-sdm660-map.conf
+vendor/etc/thermal-engine-sdm660-nolimits.conf
+vendor/etc/thermal-engine-sdm660-pubgmhd.conf
+vendor/etc/thermal-engine-sdm660-sgame.conf
+vendor/etc/thermal-engine-sdm660.conf
