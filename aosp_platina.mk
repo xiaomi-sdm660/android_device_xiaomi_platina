@@ -29,12 +29,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/platina/device.mk)
 
-# Inherit Evolution-X product configuration
-CUSTOM_BUILD_TYPE := OFFICIAL
+# Inherit AOSP product configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
-# Inherit some common Evolution-X stuff.
+# Inherit some common AOSP stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
