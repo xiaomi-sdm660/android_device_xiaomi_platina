@@ -7,9 +7,9 @@
   },
   {
     "remote":      "github",
-    "repository":  "nysascape/kernel_xiaomi_platina",
+    "repository":  "RomashkaGang/kernel_xiaomi_platina",
     "target_path": "kernel/xiaomi/platina",
-    "branch":      "ten"
+    "branch":      "stable-ten"
   },
   {
     "remote":      "github",
