@@ -48,4 +48,4 @@ WLAN_MAC_SYMLINK := true
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_platina
-TARGET_RECOVERY_DEVICE_MODULES := libinit_platina
+TARGET_RECOVERY_DEVICE_MODULES := //$(DEVICE_PATH):libinit_platina
