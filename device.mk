@@ -85,13 +85,9 @@ PRODUCT_PACKAGES += \
 # Vendor files
 $(call inherit-product, vendor/xiaomi/platina/platina-vendor.mk)
 
-# AOSP DEVICE
-PRODUCT_NAME := aosp_platina
+# HAVOC DEVICE
+PRODUCT_NAME := havoc_platina
 PRODUCT_DEVICE := platina
 PRODUCT_MODEL := Mi 8 Lite (AOSP)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-
-# Wallpapers
-PRODUCT_PACKAGES += \
-    PixelLiveWallpaperPrebuilt
