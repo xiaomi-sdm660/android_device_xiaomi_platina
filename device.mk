@@ -93,7 +93,5 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Wallpapers
-ifeq ($(WITH_GAPPS),true)
 PRODUCT_PACKAGES += \
     PixelLiveWallpaperPrebuilt
-endif
