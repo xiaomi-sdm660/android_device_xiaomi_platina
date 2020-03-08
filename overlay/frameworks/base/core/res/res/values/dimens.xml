@@ -26,5 +26,5 @@
 
 <resources>
     <!-- Default radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">14dp</dimen>
+    <dimen name="rounded_corner_radius">24dp</dimen>
 </resources>
