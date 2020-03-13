@@ -35,9 +35,9 @@ $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="platina" \
     TARGET_DEVICE="platina" \
-    PRIVATE_BUILD_DESC="coral-user 10 QQ1D.200205.002 6084393 release-keys"
+    PRIVATE_BUILD_DESC="coral-user 10 QQ2A.200305.003 6156912 release-keys"
 
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ1D.200205.002/6084393:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200305.003/6156912:user/release-keys"
 
 TARGET_VENDOR_PRODUCT_NAME := platina
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
