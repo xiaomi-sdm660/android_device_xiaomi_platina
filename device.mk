@@ -24,6 +24,9 @@
 # Inherit the fusion-common definitions
 $(call inherit-product, device/xiaomi/sdm660-common/sdm660.mk)
 
+# Firmware
+$(call inherit-product, vendor/xiaomi/firmware/platina/firmware.mk)
+
 # Device Path
 DEVICE_PATH := device/xiaomi/platina
 
