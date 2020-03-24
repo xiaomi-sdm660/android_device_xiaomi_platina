@@ -100,10 +100,29 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # DPI
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=392
+    ro.sf.lcd_density=392 \
     vendor.display.lcd_density=392
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.iwlan.enable=true \
     persist.vendor.radio.data_con_rprt=1
+	
+# Touch
+PRODUCT_PROPERTY_OVERRIDES += \
+	touch.deviceType=touchScreen \
+	touch.orientationAware=1 \
+	touch.size.calibration=diameter \
+	touch.size.scale=1 touch.size.bias=0 \
+	touch.size.isSummed=0 \
+	touch.pressure.calibration=amplitude \
+	touch.pressure.scale=0.001 \
+	touch.orientation.calibration=none \
+	touch.distance.calibration=none \
+	touch.distance.scale=0 \
+	touch.coverage.calibration=box \
+	touch.gestureMode=spots \
+	MultitouchSettleInterval=1ms \
+	MultitouchMinDistance=1px \
+	TapInterval=1ms \
+	TapSlop=1px
