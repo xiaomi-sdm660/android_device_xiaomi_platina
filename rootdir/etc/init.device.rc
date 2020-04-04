@@ -28,11 +28,6 @@
 on post-fs
     wait_for_prop vendor.sys.listeners.registered true
 
-on boot
-# Set permission for double tap to wake support
-    chmod 0660 /proc/touchpanel/wake_gesture
-    chown system system /proc/touchpanel/wake_gesture
-
 # Camera ID
     setprop persist.vendor.camera.exif.model "Mi 8 Lite"
     setprop persist.sys.exif.model "Mi 8 Lite"
