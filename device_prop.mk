@@ -65,8 +65,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.camera.display.umax=1920x1080 \
 	persist.vendor.camera.display.lmax=1280x720 \
 	vidc.enc.dcvs.extra-buff-count=2 \
-	persist.vendor.camera.eis.enable=0 \
-	persist.camera.eis.enable=0 \
 	persist.vendor.camera.expose.aux=1 \
 	persist.vendor.camera.preview.ubwc=0 \
 	persist.vendor.camera.stats.test=0 \
@@ -108,32 +106,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.iwlan.enable=true \
     persist.vendor.radio.data_con_rprt=1
-	
-# Touch
-PRODUCT_PROPERTY_OVERRIDES += \
-	touch.deviceType=touchScreen \
-	touch.orientationAware=1 \
-	touch.size.calibration=diameter \
-	touch.size.scale=1 touch.size.bias=0 \
-	touch.size.isSummed=0 \
-	touch.pressure.calibration=amplitude \
-	touch.pressure.scale=0.001 \
-	touch.orientation.calibration=none \
-	touch.distance.calibration=none \
-	touch.distance.scale=0 \
-	touch.coverage.calibration=box \
-	touch.gestureMode=spots \
-	MultitouchSettleInterval=1ms \
-	MultitouchMinDistance=1px \
-	TapInterval=1ms \
-	TapSlop=1px
-
-# Emulator keyboard configuration
-PRODUCT_PROPERTY_OVERRIDES += \
-    keyboard.layout = qwerty \
-    keyboard.characterMap = qwerty \
-    keyboard.characterMap = qwerty2 \
-    keyboard.orientationAware = 1 \
-    keyboard.builtIn = 1 \
-    cursor.mode = navigation \
-    cursor.orientationAware = 1
