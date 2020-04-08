@@ -44,6 +44,10 @@ $(call inherit-product, $(DEVICE_PATH)/device_prop.mk)
 # Media
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml
+	
+# ARCore
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/permissions/android.hardware.camera.ar.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.ar.xml
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
