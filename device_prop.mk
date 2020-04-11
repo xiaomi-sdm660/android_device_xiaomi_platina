@@ -21,12 +21,6 @@
 # definition file).
 #
 
-# Adaptive Display
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.qcom.ad=1 \
-	ro.qcom.ad.calib.data=/system/etc/calib.cfg \
-	ro.qcom.ad.sensortype=2
-
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.audio.fluence.voicecall=true \
@@ -84,6 +78,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.bokeh.switch.lux=290 \
 	persist.vendor.camera.exif.make=Xiaomi
 	vendor.camera.aux.packagelist=com.android.camera
+
+# Display
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.gralloc.gfx_ubwc_disable=0 \
+    debug.sf.enable_gl_backpressure=1
 
 # Dual SIM
 PRODUCT_PROPERTY_OVERRIDES += \
