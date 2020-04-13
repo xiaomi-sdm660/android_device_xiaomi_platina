@@ -21,20 +21,6 @@
 # definition file).
 #
 
-# Adaptive Display
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.qcom.ad=1 \
-	ro.qcom.ad.calib.data=/system/etc/calib.cfg \
-	ro.qcom.ad.sensortype=2
-
-# Audio
-PRODUCT_PROPERTY_OVERRIDES += \
-	persist.vendor.audio.fluence.voicecall=true \
-	persist.vendor.audio.fluence.voicerec=false \
-	persist.vendor.audio.fluence.speaker=true \
-	vendor.audio.adm.buffering.ms=6 \
-	vendor.audio.offload.track.enable=false
-
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.bokeh.switch.lux=290 \
@@ -65,8 +51,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.camera.display.umax=1920x1080 \
 	persist.vendor.camera.display.lmax=1280x720 \
 	vidc.enc.dcvs.extra-buff-count=2 \
-	persist.vendor.camera.eis.enable=0 \
-	persist.camera.eis.enable=0 \
 	persist.vendor.camera.expose.aux=1 \
 	persist.vendor.camera.preview.ubwc=0 \
 	persist.vendor.camera.stats.test=0 \
@@ -100,7 +84,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # DPI
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=392
     vendor.display.lcd_density=392
 
 # Radio
