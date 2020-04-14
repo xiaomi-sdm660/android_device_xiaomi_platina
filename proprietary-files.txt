@@ -1856,8 +1856,6 @@ vendor/etc/sdr_config.cfg
 vendor/etc/hdr_config.cfg
 
 # Fingerprint
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/permissions/com.fingerprints.extension.xml
 vendor/lib/hw/fingerprint.goodix.so
 vendor/lib/libgf_ca.so
