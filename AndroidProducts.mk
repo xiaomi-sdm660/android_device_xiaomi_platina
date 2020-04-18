@@ -21,11 +21,11 @@
 # definition file).
 #
 
-# inherit MI 8 Lite Havoc device config
+# inherit MI 8 Lite Ancient device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_platina.mk
+    $(LOCAL_DIR)/ancient_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_platina-eng \
-    havoc_platina-userdebug \
-    havoc_platina-user
+    ancient_platina-eng \
+    ancient_platina-userdebug \
+    ancient_platina-user
