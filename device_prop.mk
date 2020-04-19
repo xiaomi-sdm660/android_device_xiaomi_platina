@@ -90,3 +90,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.iwlan.enable=true \
     persist.vendor.radio.data_con_rprt=1
+
+# Evolution X
+PRODUCT_PROPERTY_OVERRIDES += \
+    org.evolution.build_donate_url="https://paypal.me/nysascape" \
+    org.evolution.build_maintainer=nysascape \
+    org.evolution.build_support_url="https://t.me/EvolutionXPlatina"
