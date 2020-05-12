@@ -135,7 +135,6 @@ vendor/lib/libarcsoft_high_dynamic_range.so
 vendor/lib/libarcsoft_supernight.so
 vendor/lib/libcamera_scene.so
 vendor/lib/libc++_shared.so
-vendor/lib/libcdsprpc.so
 vendor/lib/libdepthmapwrapper.so
 vendor/lib/libFaceGrade.so
 vendor/lib/libft2vendor.so
@@ -180,7 +179,6 @@ vendor/lib/libXMFD_AgeGender.so
 vendor/lib/mibokeh_660_opencl.bin
 vendor/lib/libmegface.so
 vendor/lib/libMegviiFacepp-0.5.2.so
-vendor/lib64/libcdsprpc.so
 vendor/lib64/libhdr_tm.so
 vendor/lib64/libmmcamera2_frame_algorithm.so
 vendor/lib64/libmmcamera2_is.so
