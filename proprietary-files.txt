@@ -2,31 +2,8 @@
 vendor/bin/audioflacapp
 vendor/firmware/dbmd4_va_fw.bin
 vendor/firmware/voice_amodel.bin
-vendor/lib/libacdb-fts.so
-vendor/lib/libacdbloader.so
-vendor/lib/libacdbrtac.so
-vendor/lib/libadiertac.so
-vendor/lib/libadm.so
-vendor/lib/libaudcal.so
-vendor/lib/libaudioalsa.so
-vendor/lib/libaudioconfigstore.so
-vendor/lib/libaudioparsers.so
-vendor/lib/libaudioroute_ext.so
--vendor/lib/libaudio_log_utils.so
-vendor/lib/libdrc.so
-vendor/lib/libqtigef.so
-vendor/lib/libsurround_3mic_proc.so
-vendor/lib64/libacdb-fts.so
-vendor/lib64/libacdbloader.so
-vendor/lib64/libacdbrtac.so
-vendor/lib64/libadiertac.so
-vendor/lib64/libaudcal.so
-vendor/lib64/libaudioalsa.so
-vendor/lib64/libaudioconfigstore.so
-vendor/lib64/libaudioparsers.so
-vendor/lib64/libaudioroute_ext.so
--vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libqtigef.so
+etc/firmware/tfa98xx_aac.cnt
+etc/firmware/tfa98xx_goer.cnt
 
 # Audio-ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -1867,10 +1844,6 @@ vendor/lib64/libgf_hal.so
 vendor/lib64/libqfp-service.so
 vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
-
-# Firmware
-etc/firmware/tfa98xx_aac.cnt
-etc/firmware/tfa98xx_goer.cnt
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
