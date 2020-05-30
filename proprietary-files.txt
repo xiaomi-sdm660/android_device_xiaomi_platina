@@ -4,6 +4,14 @@ vendor/firmware/dbmd4_va_fw.bin
 vendor/firmware/voice_amodel.bin
 etc/firmware/tfa98xx_aac.cnt
 etc/firmware/tfa98xx_goer.cnt
+vendor/lib/libaudioconfigstore.so
+vendor/lib/libaudioroute_ext.so
+-vendor/lib/libaudio_log_utils.so
+vendor/lib64/libaudioconfigstore.so
+vendor/lib64/libaudioroute_ext.so
+-vendor/lib64/libaudio_log_utils.so
+vendor/lib/hw/audio.primary.sdm660.so
+vendor/lib64/hw/audio.primary.sdm660.so
 
 # Audio-ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
